@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Rockville Weather</title>
+
+    <!-- <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css"> -->
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+      section {
+        display: grid;
+        grid-auto-columns: auto;
+        grid-row: 1;
+      }
+      section div {
+        display: grid;
+        grid-column: auto;
+        grid-row: 1;
+      }
+      img { 
+        width: 100%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div>
+      <header>
+        <h3>Capital Area Weather Forecast</h3>
+      </header>
+      <section>
+        <div>
+          <img  id="temp_wind" alt="Temp / Wind" src="http://forecast.weather.gov/meteograms/Plotter.php?lat=39.08&lon=-77.15&wfo=LWX&zcode=MDZ504&gset=20&gdiff=6&unit=0&tinfo=EY5&ahour=0&pcmd=11111111000000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=24&pqpfhr=6&psnwhr=6"><br>
+          <img id="precip" alt="Precipitation" src="http://forecast.weather.gov/meteograms/Plotter.php?lat=39.08&lon=-77.15&wfo=LWX&zcode=MDZ504&gset=20&gdiff=6&unit=0&tinfo=EY5&ahour=0&pcmd=00000000111111100000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=24&pqpfhr=6&psnwhr=6">
+        </div>
+        <div>
+          <img  id="temp_wind" alt="Temp / Wind" src="http://forecast.weather.gov/meteograms/Plotter.php?lat=39.08&lon=-77.15&wfo=LWX&zcode=MDZ504&gset=20&gdiff=6&unit=0&tinfo=EY5&ahour=24&pcmd=11111111000000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=24&pqpfhr=6&psnwhr=6"><br>
+          <img id="precip" alt="Precipitation" src="http://forecast.weather.gov/meteograms/Plotter.php?lat=39.08&lon=-77.15&wfo=LWX&zcode=MDZ504&gset=20&gdiff=6&unit=0&tinfo=EY5&ahour=24&pcmd=00000000111111100000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=24&pqpfhr=6&psnwhr=6">  
+        </div>
+        <div>
+          <img  id="temp_wind" alt="Temp / Wind" src="http://forecast.weather.gov/meteograms/Plotter.php?lat=39.08&lon=-77.15&wfo=LWX&zcode=MDZ504&gset=20&gdiff=6&unit=0&tinfo=EY5&ahour=48&pcmd=11111111000000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=24&pqpfhr=6&psnwhr=6"><br>
+          <img id="precip" alt="Precipitation" src="http://forecast.weather.gov/meteograms/Plotter.php?lat=39.08&lon=-77.15&wfo=LWX&zcode=MDZ504&gset=20&gdiff=6&unit=0&tinfo=EY5&ahour=48&pcmd=00000000111111100000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=24&pqpfhr=6&psnwhr=6">  
+        </div>
+      </section>
+    </div>
+    
+  </body>
+</html>
